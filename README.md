@@ -7,6 +7,10 @@ mongoose-transact
 
 A transaction system for mongoose
 
+## 申明
+
+ 由于原作者的项目（https://github.com/niahmiah/mongoose-transact）疏于维护，pull request 不响应，决定基于此项目另立门户。
+
 ## You probably shouldn't use this
 
 To begin, if you are considering using this, then you are probably doing something wrong. Transactions were excluded from MongoDB for a reason. They are slow by nature, and create a need for a locking mechanism for all documents affected. However, sometimes you will find yourself painted into a corner, and will need a quick solution.
